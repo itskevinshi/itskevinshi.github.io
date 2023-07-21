@@ -44,3 +44,6 @@ body{
     100%  {filter: blur(00px);color:rgb(0, 0, 0);}
   }
   
+.no-underline {
+    text-decoration: none;
+}
