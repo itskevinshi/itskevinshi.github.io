@@ -18,7 +18,7 @@ body{
     display: inline;
     font-size: 120px;
     font-family: Helvetica;
-    color:#c99;
+    color:rgb(0, 0, 0);
     padding: 0px;
     margin: 0px;
     animation: blur-anime 1s ease-in-out infinite;
@@ -38,9 +38,9 @@ body{
   
   
   @keyframes blur-anime {
-    0%  {filter: blur(0px);color:#9cc;}
-    40%  {filter: blur(15px);color:#c99;}
-    60%  {filter: blur(15px);color:#c99;}
-    100%  {filter: blur(00px);color:#9cc;}
+    0%  {filter: blur(0px);color:rgb(0, 0, 0);}
+    40%  {filter: blur(15px);color:rgb(0, 0, 0);}
+    60%  {filter: blur(15px);color:rgb(0, 0, 0);}
+    100%  {filter: blur(00px);color:rgb(0, 0, 0);}
   }
   
