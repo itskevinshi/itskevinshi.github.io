@@ -154,13 +154,18 @@ a {
   z-index: 3;
 
   /* Add some styles to make the button more visible */
-  background-color: white;
-  color: black;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 10px 10px;
+  border: 1px solid white;
+  border-radius: 0;
+  cursor: none;
+
+   /* Set the font family to match h1 and h2 */
+   font-family: 'Space Mono', monospace;
+   font-size: clamp(0.25rem, 1vw, 1rem);
 }
+
 
 .alternative-palette {
   /* Define the styles for the alternative color scheme here */
@@ -181,4 +186,11 @@ body.alternative-palette {
 .alternative-palette h1,
 .alternative-palette h2 {
   color: var(--text-color);
+}
+
+.alternative-palette #toggle-button {
+  color:black;
+  background-color: transparent;
+  border-image-source:none;
+  border-color:black;
 }

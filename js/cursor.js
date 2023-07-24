@@ -63,3 +63,15 @@ h2Elements.forEach(h2 => {
     cursor.style.height = '25px';
   });
 });
+
+const toggleButton = document.querySelector('#toggle-button');
+
+toggleButton.addEventListener('mouseover', () => {
+  cursor.style.width = '45px';
+  cursor.style.height = '45px';
+});
+
+toggleButton.addEventListener('mouseout', () => {
+  cursor.style.width = '25px';
+  cursor.style.height = '25px';
+});
