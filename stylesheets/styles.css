@@ -1,49 +1,184 @@
-body{
-    background-color:#fff3df;
-    margin: 50px;
-    padding: 0px;
-  }
-  .space{
-    display: inline-block;
-    width: 20px;
-  }
-  .container{
-    display: inline-block;
-    border-radius: 30px 30px;
-    width: 100%;
-    text-align: left;
+body {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  margin: 0rem;
+  transition: background-color 0.3s;
+  overflow: hidden; 
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
   }
   
-  .title{
-    display: inline;
-    font-size: 120px;
-    font-family: Helvetica;
-    color:rgb(0, 0, 0);
-    padding: 0px;
-    margin: 0px;
-    animation: blur-anime 1s ease-in-out infinite;
+  50% {
+    scale: 1 1.5;
   }
   
-  .delay1{animation-delay: 0.1s;}
-  .delay2{animation-delay: 0.2s;}
-  .delay3{animation-delay: 0.3s;}
-  .delay4{animation-delay: 0.4s;}
-  .delay5{animation-delay: 0.5s;}
-  .delay6{animation-delay: 0.6s;}
-  .delay7{animation-delay: 0.7s;}
-  .delay8{animation-delay: 0.8s;}
-  .delay9{animation-delay: 0.9s;}
-  .delay0{animation-delay: 0.0s;}
-  
-  
-  
-  @keyframes blur-anime {
-    0%  {filter: blur(0px);color:rgb(0, 0, 0);}
-    40%  {filter: blur(15px);color:rgb(0, 0, 0);}
-    60%  {filter: blur(15px);color:rgb(0, 0, 0);}
-    100%  {filter: blur(00px);color:rgb(0, 0, 0);}
+  to {
+    rotate: 360deg;
   }
-  
-.no-underline {
-    text-decoration: none;
+}
+
+#blob {
+  background-color: white;
+  height: 34vmax;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(to right, rgb(255, 233, 166),rgb(88, 0, 74));
+  animation: rotate 20s infinite;
+  opacity: 0.8;
+}
+
+#blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  backdrop-filter: blur(12vmax);
+}
+
+h1 {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(3rem, 10vw, 10rem);
+  color: white;
+  white-space: nowrap;
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  margin: 0rem;
+  position: absolute;
+  transition: color 0.3s;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  z-index: 3;
+  background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXUyZ3d0ODl3ZHduMHpzcmpoeGt5ZTV4MzExanV1ZTV4cmp6M3V4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8QOG7X0lWU4zvVSzlG/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+}
+
+h2.university {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(0.5rem, 2vw, 2rem);
+  color: white;
+  white-space: nowrap;
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  margin: 0rem;
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 7rem);
+  translate: -50% -50%;
+  z-index: 3;
+}
+
+h2.learning {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(0.5rem, 2vw, 2rem);
+  color: white;
+  white-space: nowrap;
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  margin: 0rem;
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 10rem);
+  translate: -50% -50%;
+  z-index: 3;
+}
+
+h2 {
+  transition: color 0.3s;
+}
+
+h2:hover {
+  color: #c2c2c2;
+}
+
+body {
+  cursor: none;
+}
+a {
+  cursor: none;
+}
+
+.social-media-icons {
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 13rem);
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.social-media-icons a {
+  text-decoration: none;
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes breathe {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+::selection {
+  /* Change highlight background color to black */
+  background: #ffffff;
+  /* Change highlight text color to red */
+  color: #000000;
+}
+
+#toggle-button {
+  /* Position the button in the upper right corner */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 3;
+
+  /* Add some styles to make the button more visible */
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.alternative-palette {
+  /* Define the styles for the alternative color scheme here */
+  --background-color: tan;
+  --text-color: black;
+}
+
+body.alternative-palette {
+  background-color: var(--background-color);
+}
+
+
+
+.alternative-palette #blob {
+  background: var(--background-color);
+}
+
+.alternative-palette h1,
+.alternative-palette h2 {
+  color: var(--text-color);
 }
