@@ -197,5 +197,8 @@ body.alternative-palette {
 
 .alternative-palette .social-media-icons img {
   filter: invert(1);
+}
+
+.social-media-icons img {
   transition: filter 0.3s;
 }
