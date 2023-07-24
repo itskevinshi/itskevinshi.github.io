@@ -194,3 +194,8 @@ body.alternative-palette {
   border-image-source:none;
   border-color:black;
 }
+
+.alternative-palette .social-media-icons img {
+  filter: invert(1);
+  transition: filter 0.3s;
+}
