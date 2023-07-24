@@ -1,0 +1,44 @@
+/* This code is based on a pen by Jarod Hargreaves:
+https://codepen.io/jargharg/pen/YzQQdoo */
+
+:root {
+    --eye-color: #db7c26;
+    --iris-color: #f7b538;
+    --pupil-color: #780116;
+    --eyelids-color: var(--eye-color);
+  }
+  
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    height: 80vh;
+    width: 80vh;
+    display: block;
+    background: var(--bg-color);
+    z-index: 3;
+  }
+  
+  .eyelids {
+    stroke: var(--eyelids-color);
+  }
+  
+  .eye {
+    fill: var(--eye-color);
+    stroke: none;
+  }
+  
+  .iris {
+    fill: var(--iris-color);
+  }
+  
+  .pupil {
+    fill: var(--pupil-color);
+  }
+  
+  .highlight {
+    fill: white;
+    opacity: 0.9;
+  }
+  

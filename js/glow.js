@@ -1,3 +1,6 @@
+// This code is based on a pen by Hyperplexed:
+// https://codepen.io/Hyperplexed/pen/KKBjvbG
+
 /* -- Glow effect -- */
 
 const blob = document.getElementById("blob");

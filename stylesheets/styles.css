@@ -99,6 +99,15 @@ h2:hover {
   color: #c2c2c2;
 }
 
+.h2-container {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 7rem);
+  transform: translateX(-50%);
+}
+
+
 body {
   cursor: none;
 }
@@ -201,4 +210,12 @@ body.alternative-palette {
 
 .social-media-icons img {
   transition: filter 0.3s;
+}
+
+svg {
+  display: none;
+}
+
+body.alternative-palette svg {
+  display: block;
 }
