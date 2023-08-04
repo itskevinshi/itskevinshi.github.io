@@ -1,5 +1,5 @@
 # itskevinshi.github.io
-Kevin Shi | UVA | CS Hopeful
+Kevin Shi // CS Hopeful
 <p align="center">
 
   
