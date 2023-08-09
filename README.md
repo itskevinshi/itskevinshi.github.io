@@ -1,7 +1,8 @@
 # itskevinshi.github.io
 Kevin Shi // CS Hopeful
-<p align="center">
 
+[Website](https://itskevinshi.github.io) // [LinkedIn](https://www.linkedin.com/in/kevinshi0/)
+<p align="center">
   
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⡿⣷⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣤⣤⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡾⣿⠏⠀⣿⠀⠀⠀⠀⠀⠀⠀
