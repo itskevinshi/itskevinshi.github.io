@@ -219,3 +219,7 @@ svg {
 body.alternative-palette svg {
   display: block;
 }
+
+.alternative-palette h2:hover {
+  color: #404040;
+}
