@@ -149,35 +149,27 @@ a {
 }
 
 ::selection {
-  /* Change highlight background color to black */
   background: #ffffff;
-  /* Change highlight text color to red */
   color: #000000;
 }
 
 #toggle-button {
-  /* Position the button in the upper right corner */
   position: absolute;
   top: 20px;
   right: 20px;
   z-index: 3;
-
-  /* Add some styles to make the button more visible */
   background-color: transparent;
   color: white;
   padding: 10px 10px;
   border: 1px solid white;
   border-radius: 0;
   cursor: none;
-
-   /* Set the font family to match h1 and h2 */
-   font-family: 'Space Mono', monospace;
-   font-size: clamp(0.25rem, 1vw, 1rem);
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(0.25rem, 1vw, 1rem);
 }
 
 
 .alternative-palette {
-  /* Define the styles for the alternative color scheme here */
   --background-color: tan;
   --text-color: black;
 }
