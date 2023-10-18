@@ -75,6 +75,7 @@ h2.university {
   top: calc(50% + 7rem);
   translate: -50% -50%;
   z-index: 3;
+  font-weight: 300; 
 }
 
 h2.learning {
@@ -89,6 +90,7 @@ h2.learning {
   top: calc(50% + 10rem);
   translate: -50% -50%;
   z-index: 3;
+  font-weight: 300; 
 }
 
 h2 {
