@@ -217,3 +217,44 @@ body.alternative-palette svg {
 .alternative-palette h2:hover {
   color: #404040;
 }
+
+.contact-info {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; /* Adjust this value as needed */
+}
+
+.contact-info a {
+  color: powderblue; /* Replace with your desired color */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Distributes space evenly around items */
+  height: 100vh;
+  margin-left: 20%; /* Adjust this value as needed */
+  margin-right: 20%; /* Adjust this value as needed */
+}
+
+
+.profile-picture {
+}
+
+.profile-picture img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ffffff; /* Adds a white border */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+
+.about {
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+}
