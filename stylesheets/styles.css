@@ -258,3 +258,7 @@ body.alternative-palette svg {
   text-align: left;
   padding-left: 20px;
 }
+
+.about-page {
+  overflow: auto;
+}
