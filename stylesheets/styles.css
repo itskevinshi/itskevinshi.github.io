@@ -97,9 +97,9 @@ h2 {
   transition: color 0.3s;
 }
 
-h2:hover {
-  color: #c2c2c2;
-}
+/* h2:hover {
+  color: #ffffff;
+} */
 
 .h2-container {
   display: flex;
@@ -261,4 +261,20 @@ body.alternative-palette svg {
 
 .about-page {
   overflow: auto;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
 }
