@@ -6,42 +6,6 @@ body {
   overflow: hidden; 
 }
 
-@keyframes rotate {
-  from {
-    rotate: 0deg;
-  }
-  
-  50% {
-    scale: 1 1.5;
-  }
-  
-  to {
-    rotate: 360deg;
-  }
-}
-
-#blob {
-  background-color: white;
-  height: 34vmax;
-  aspect-ratio: 1;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  translate: -50% -50%;
-  border-radius: 50%;
-  background: linear-gradient(to right, rgb(255, 233, 166),rgb(88, 0, 74));
-  animation: rotate 20s infinite;
-  opacity: 0.8;
-}
-
-#blur {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  z-index: 2;
-  backdrop-filter: blur(12vmax);
-}
-
 h1 {
   font-family: 'Space Mono', monospace;
   font-size: clamp(3rem, 10vw, 10rem);
@@ -97,10 +61,6 @@ h2 {
   transition: color 0.3s;
 }
 
-/* h2:hover {
-  color: #ffffff;
-} */
-
 .h2-container {
   display: flex;
   position: absolute;
@@ -155,63 +115,9 @@ a {
   color: #000000;
 }
 
-#toggle-button {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 3;
-  background-color: transparent;
-  color: white;
-  padding: 10px 10px;
-  border: 1px solid white;
-  border-radius: 0;
-  cursor: none;
-  font-family: 'Space Mono', monospace;
-  font-size: clamp(0.25rem, 1vw, 1rem);
-}
-
-
-.alternative-palette {
-  --background-color: tan;
-  --text-color: black;
-}
-
-body.alternative-palette {
-  background-color: var(--background-color);
-}
-
-
-
-.alternative-palette #blob {
-  background: var(--background-color);
-}
-
-.alternative-palette h1,
-.alternative-palette h2 {
-  color: var(--text-color);
-}
-
-.alternative-palette #toggle-button {
-  color:black;
-  background-color: transparent;
-  border-image-source:none;
-  border-color:black;
-}
-
-.alternative-palette .social-media-icons img {
-  filter: invert(1);
-}
 
 .social-media-icons img {
   transition: filter 0.3s;
-}
-
-svg {
-  display: none;
-}
-
-body.alternative-palette svg {
-  display: block;
 }
 
 .alternative-palette h2:hover {
@@ -238,10 +144,6 @@ body.alternative-palette svg {
   height: 100vh;
   margin-left: 20%; /* Adjust this value as needed */
   margin-right: 20%; /* Adjust this value as needed */
-}
-
-
-.profile-picture {
 }
 
 .profile-picture img {
