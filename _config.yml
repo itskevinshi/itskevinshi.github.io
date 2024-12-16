@@ -22,8 +22,8 @@ title: Kevin Shi
 email: kevinshi0@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal Website for Kevin Shi
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://itskevinshi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  itskevinshi
 
 header_pages:
@@ -34,7 +34,7 @@ header_pages:
 footer: 'Add me on <a href="https://www.linkedin.com/in/kevinshi0/">LinkedIn</a>, check out my projects on <a href="https://github.com/itskevinshi">GitHub</a>'
 
 # Build settings
-theme: jekyll-theme-console
+remote_theme: jekyll-theme-console
 plugins:
   - jekyll-feed
 
