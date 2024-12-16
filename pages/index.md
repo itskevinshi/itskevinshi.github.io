@@ -13,7 +13,7 @@ Hey there! I'm Kevin Shi, a Virginia native and third year CS major at the Unive
 # Professional Experience
 - Northrop Grumman: SWE Intern (May 2024 - July 2024)
 - OmnisTMS: SWE Intern (June 2024 - August 2024)
-# Full Resume <a href="../assets/Kevin_Shi_resume.pdf" target="_blank" rel="noopener noreferrer">Here</a>
+# Full Resume <a href="../assets/Kevin_Shi_resume_np.pdf" target="_blank" rel="noopener noreferrer">Here</a>
 # ‎ 
 
 <img src="../assets/meinnyc1.jpg" alt="Me in NYC" width="200" height="auto">
