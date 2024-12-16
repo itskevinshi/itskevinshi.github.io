@@ -17,6 +17,8 @@
     {% if page.robots %}
       <meta name="robots" content="{{page.robots}}" />
     {% endif %}
+
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon-32x32.png">
   
     {%- if site.listen_for_clients_preferred_style -%}
       <link rel="stylesheet" type="text/css" href="{{ "/assets/main.css" | relative_url }}">

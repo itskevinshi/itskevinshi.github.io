@@ -27,10 +27,10 @@ url: "https://itskevinshi.github.io" # the base hostname & protocol for your sit
 github_username:  itskevinshi
 
 header_pages:
-  - index.md
-  - projects.md
-  - random.md
-  - contact.md
+  - pages/index.md
+  - pages/projects.md
+  - pages/random.md
+  - pages/contact.md
 footer: 'Add me on <a href="https://www.linkedin.com/in/kevinshi0/">LinkedIn</a>, check out my projects on <a href="https://github.com/itskevinshi">GitHub</a>'
 
 # Build settings
