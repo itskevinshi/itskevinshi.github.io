@@ -23,7 +23,7 @@ email: kevinshi0@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal Website for Kevin Shi
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://itskevinshi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  itskevinshi
 
 header_pages:
