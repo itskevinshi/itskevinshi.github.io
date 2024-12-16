@@ -34,7 +34,7 @@ header_pages:
 footer: 'Add me on <a href="https://www.linkedin.com/in/kevinshi0/">LinkedIn</a>, check out my projects on <a href="https://github.com/itskevinshi">GitHub</a>'
 
 # Build settings
-theme: jekyll-theme-console
+remote_theme: jekyll-theme-console
 plugins:
   - jekyll-feed
 
