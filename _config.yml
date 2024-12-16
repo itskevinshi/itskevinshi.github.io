@@ -31,7 +31,7 @@ header_pages:
   - pages/projects.md
   - pages/random.md
   - pages/contact.md
-footer: 'Add me on <a href="https://www.linkedin.com/in/kevinshi0/">LinkedIn</a>, check out my projects on <a href="https://github.com/itskevinshi">GitHub</a>'
+footer: 'Check out my projects on <a href="https://github.com/itskevinshi" target="_blank" rel="noopener noreferrer">GitHub</a>, add me on <a href="https://www.linkedin.com/in/kevinshi0/" target="_blank" rel="noopener noreferrer">LinkedIn</a><span class="blink">█</span>'
 
 # Build settings
 remote_theme: b2a3e8/jekyll-theme-console
