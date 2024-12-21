@@ -9,8 +9,8 @@ permalink: /random/
 <a href="https://www.goodreads.com/book/show/49021976-rhythm-of-war" target="_blank">Rhythm of War</a>, By Brandon Sanderson
 
 # Playing
-- VALORANT (Current Rank: Platinum 2)
-- Balatro (Highest Hand: 4,500,498,890)
+- VALORANT (Current Rank: Platinum 1)
+- Balatro (Highest Hand: 4.935e13)
 - Fire Emblem: Shadow Dragon
 
 # 2024 Recap:
