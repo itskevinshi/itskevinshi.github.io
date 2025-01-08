@@ -6,7 +6,7 @@ permalink: /random/
 **This page is for interesting things/personal hobbies ᕕ( ᐛ )ᕗ**
 
 # Reading/Listening To
-<a href="https://www.goodreads.com/book/show/201242757-you-like-it-darker" target="_blank">You Like it Darkers</a>, By Stephen King
+<a href="https://www.goodreads.com/book/show/201242757-you-like-it-darker" target="_blank">You Like it Darker</a>, By Stephen King
 
 # Playing
 - VALORANT (Current Rank: Platinum 1)
