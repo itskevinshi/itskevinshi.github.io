@@ -11,7 +11,7 @@ permalink: /random/
 # Playing
 - VALORANT (Current Rank: Platinum 1)
 - Balatro (Highest Hand: 4.935e13)
-- Fire Emblem: Shadow Dragon
+- Fire Emblem: Path of Radiance
 
 # 2024 Recap:
 # Reddit
