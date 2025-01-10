@@ -1,0 +1,23 @@
+// temporary snow effect
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #0A0A0A;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .snowflake {
+    position: absolute;
+    top: -50px;
+    color: white;
+    user-select: none;
+    animation: fall linear infinite;
+  }
+  
+  @keyframes fall {
+    to {
+      transform: translateY(160px) rotate(360deg) translateX(20px);
+      opacity: 0;
+    }
+  }
