@@ -9,7 +9,7 @@ permalink: /random/
 <a href="https://www.goodreads.com/book/show/201242757-you-like-it-darker" target="_blank">You Like it Darker</a>, By Stephen King
 
 # Playing
-- VALORANT (Current Rank: Platinum 1)
+- VALORANT (Current Rank: Silver 3)
 - Balatro (Highest Hand: 4.935e13)
 - Fire Emblem: Path of Radiance
 
