@@ -20,7 +20,7 @@ const createSnowflake = () => {
   snowflake.innerText = '*';
 
   const initialRotation = Math.random() * 360;
-  snowflake.style.left = Math.random() * 100 + 'vw';
+  snowflake.style.left = Math.random() * (window.innerWidth - 40) + 'px';
   snowflake.style.animationDuration = 5 + Math.random() * 5 + 's';
   snowflake.style.fontSize = 8 + Math.random() * 10 + 'px';
   snowflake.style.transform = `rotate(${initialRotation}deg)`;
