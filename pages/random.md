@@ -5,8 +5,11 @@ permalink: /random/
 ---
 **This page is for interesting things/personal hobbies ᕕ( ᐛ )ᕗ**
 
-# Reading/Listening To
-<a href="https://www.goodreads.com/book/show/201242757-you-like-it-darker" target="_blank">You Like it Darker</a>, By Stephen King
+# Duolingo Streak (Japanese)🐧: <span id="streak-counter"></span> days
+
+# Reading/Listening To 🔊
+<a href="https://www.goodreads.com/book/show/201242757-you-like-it-darker" target="_blank">You Like it Darker</a>, by Stephen King
+<a href="https://www.goodreads.com/book/show/49021976-rhythm-of-war" target="_blank">Rhythm of War</a>, by Brandon Sanderson
 
 # Playing ![IVEPLAYEDTHESEGAMESBEFORE](../assets/IVEPLAYEDTHESEGAMESBEFORE.webp){: width="30px" style="vertical-align: middle;" }
 - VALORANT (Current Rank: Silver 3)
@@ -31,3 +34,4 @@ permalink: /random/
 </div>
 
 <script src="../js/progress-bar.js"></script>
+<script src="../js/streak-counter.js"></script>
