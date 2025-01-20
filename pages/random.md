@@ -12,7 +12,7 @@ permalink: /random/
 <a href="https://www.goodreads.com/book/show/49021976-rhythm-of-war" target="_blank">Rhythm of War</a>, by Brandon Sanderson
 
 # Playing ![IVEPLAYEDTHESEGAMESBEFORE](../assets/IVEPLAYEDTHESEGAMESBEFORE.webp){: width="30px" style="vertical-align: middle;" }
-- VALORANT (Current Rank: Silver 3)
+- VALORANT (Current Rank: Gold 1)
 - Balatro (Highest Hand: 4.935e13)
 - Fire Emblem: Path of Radiance
 
