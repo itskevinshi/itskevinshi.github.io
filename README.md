@@ -1,6 +1,3 @@
-# Kevin Shi // CS Hopeful
-
-[Website](https://itskevinshi.github.io) | [LinkedIn](https://www.linkedin.com/in/kevinshi0/)
 <p align="center">
   
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⡿⣷⠀⠀⠀⠀⠀⠀⠀
