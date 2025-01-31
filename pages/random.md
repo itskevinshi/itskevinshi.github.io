@@ -25,6 +25,11 @@ permalink: /random/
 - Top Games: Valorant, Counter-Strike 2, Mario Kart 8 Deluxe
 - Top Creators: Shortcat, VALORANT Champions Tour, xQc, SmallAnt, TenZ
 
+# Random Links
+- <a href="https://www.youtube.com/@kevin.s" target="_blank">YouTube Channel</a>
+- <a href="https://www.inaturalist.org/observations?subview=table&user_id=kevin_shi&verifiable=any" target="_blank">iNaturalist Profile</a>
+- <a href="https://steamcommunity.com/id/kfjasdhlfkas/" target="_blank">Steam Profile</a>
+
 # ‎ 
 
 
