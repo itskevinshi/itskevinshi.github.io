@@ -13,7 +13,7 @@ permalink: /random/
 
 # Playing ![IVEPLAYEDTHESEGAMESBEFORE](../assets/IVEPLAYEDTHESEGAMESBEFORE.webp){: width="30px" style="vertical-align: middle;" }
 - VALORANT (Current Rank: Gold 1)
-- Balatro (Highest Hand: 4.935e13)
+- Balatro (Highest Hand: 4.204e18)
 - Fire Emblem: Path of Radiance
 
 # <span id="recap-year"></span> Recap:
