@@ -40,3 +40,4 @@ permalink: /random/
 
 <script src="../js/progress-bar.js"></script>
 <script src="../js/streak-counter.js"></script>
+<script src="../js/oneko.js"></script>
