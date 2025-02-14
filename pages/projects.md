@@ -5,7 +5,6 @@ permalink: /projects/
 ---
 
 # <a href="https://github.com/itskevinshi/Palettable" target="_blank" rel="noopener noreferrer">Palettable</a>
-- Work in progress
 - An Android app built using Kotlin for generating color palettes based on pictures taken from your phone
 # <a href="https://github.com/colbycheese55/Speak-Easy" target="_blank" rel="noopener noreferrer">Speak Easy</a>
 - A language assistant tool using tkinter, Perplexity API, and IBM Watson NLP API
