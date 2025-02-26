@@ -4,6 +4,8 @@ title: /projects
 permalink: /projects/
 ---
 
+# <a href="https://github.com/itskevinshi/hide-video-duration" target="_blank" rel="noopener noreferrer">SpoilerGuard</a>
+- A simple Chrome extension that hides YouTube video durations based on customizable keyword filters. Perfect for watching VCT VODs without spoilers!
 # <a href="https://github.com/itskevinshi/Palettable" target="_blank" rel="noopener noreferrer">Palettable</a>
 - An Android app built using Kotlin for generating color palettes based on pictures taken from your phone
 # <a href="https://github.com/colbycheese55/Speak-Easy" target="_blank" rel="noopener noreferrer">Speak Easy</a>
