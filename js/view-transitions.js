@@ -155,6 +155,9 @@ document.addEventListener('DOMContentLoaded', () => {
       navigateTo(link.href);
     });
     
+    // Track page-specific elements and scripts
+    let currentPageScripts = [];
+    
     async function navigateTo(url) {
       // Regenerate keyframes for each transition
       generateKeyframes();
@@ -172,8 +175,69 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update the parts of the page you want to transition
         document.title = newDocument.title;
         
+        // Clean up elements from previous page
+        // 1. Remove oneko cat elements
+        document.querySelectorAll('#oneko').forEach(el => el.remove());
+        
+        // 2. Remove any scripts we previously added
+        currentPageScripts.forEach(script => {
+          if (script && script.parentNode) {
+            script.parentNode.removeChild(script);
+          }
+        });
+        currentPageScripts = [];
+        
         // Update the main content
         document.querySelector('main').innerHTML = newDocument.querySelector('main').innerHTML;
+        
+        // Determine which page we're navigating to
+        const isRandomPage = url.includes('/random/');
+        
+        // Execute inline scripts from the main content
+        document.querySelector('main').querySelectorAll('script:not([src])').forEach(script => {
+          eval(script.textContent);
+        });
+        
+        // Process page-specific scripts
+        if (isRandomPage) {
+          // Extract script paths from the original document
+          const originalScripts = newDocument.querySelectorAll('script[src]');
+          const scriptPaths = Array.from(originalScripts)
+            .map(script => script.getAttribute('src'))
+            .filter(src => 
+              src && (
+                src.includes('progress-bar.js') || 
+                src.includes('streak-counter.js') || 
+                src.includes('oneko.js')
+              )
+            );
+          
+          // Load each script with its original path
+          const loadedScripts = [];
+          
+          scriptPaths.forEach(src => {
+            const script = document.createElement('script');
+            script.src = src;
+            
+            // Track when progress-bar.js is loaded
+            if (src.includes('progress-bar.js')) {
+              script.onload = function() {
+                // Initialize progress bar
+                if (typeof updateProgressBar === 'function') {
+                  // Set year elements
+                  document.getElementById("recap-year").textContent = new Date().getFullYear() - 1;
+                  document.getElementById("current-year").textContent = new Date().getFullYear();
+                  // Start the progress bar
+                  updateProgressBar();
+                }
+              };
+            }
+            
+            document.body.appendChild(script);
+            currentPageScripts.push(script);
+            loadedScripts.push(script);
+          });
+        }
         
         // Update the URL
         window.history.pushState({}, '', url);
