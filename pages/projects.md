@@ -4,6 +4,8 @@ title: /projects
 permalink: /projects/
 ---
 
+# <a href="https://github.com/itskevinshi/CHIP8" target="_blank" rel="noopener noreferrer">CHIP-8 Emulator</a>
+- An emulator for the CHIP-8 programming language, developed primarily in C++ utilizing tools such as gtest and SDL3.
 # <a href="https://github.com/itskevinshi/hide-video-duration" target="_blank" rel="noopener noreferrer">SpoilerGuard</a>
 - A simple Chrome extension that hides YouTube video durations based on customizable keyword filters. Perfect for watching VCT VODs without spoilers!
 # <a href="https://github.com/itskevinshi/Palettable" target="_blank" rel="noopener noreferrer">Palettable</a>

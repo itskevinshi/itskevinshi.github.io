@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+@import url('https://unpkg.com/normalize.css') layer(normalize);
+/* @import 'normalize.css' layer(normalize); */
+
+@font-face {
+  font-family: 'Departure Mono';
+  src: url('https://assets.codepen.io/605876/DepartureMono-Regular.woff');
+}
+
+@layer normalize, base, demo, transition;
+
+@layer transition {
+  :root {
+    --speed: 0.625s;
+    --ms: calc(1vmax * var(--size));
+  }
+  /* set up view-transition background */
+  ::view-transition {
+    background: oklch(58.82% 0.2444 352.59);
+    background: oklch(71.47% 0.2256 23.29);
+    background: oklch(64.72% 0.3133 333.53);
+  }
+  /* set up masking properties */
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    mask-image: var(--mi);
+    mask-repeat: no-repeat;
+    mask-size: calc(var(--ms) + 1px) calc(var(--ms) + 1px);
+    mask-position: var(--mp, -100% -100%);
+  }
+  /* outIn */
+  [data-transition='outIn']::view-transition-old(root) {
+    animation: maskOut var(--speed) ease forwards reverse;
+  }
+  [data-transition='outIn']::view-transition-new(root) {
+    animation: maskIn var(--speed) calc(var(--speed) * 1.25) ease forwards;
+  }
+  /* out */
+  [data-transition='out']::view-transition-old(root) {
+    animation: maskOut var(--speed) ease forwards reverse;
+    z-index: 2;
+  }
+  [data-transition='out']::view-transition-new(root) {
+    animation: none;
+    mask: none;
+    opacity: 1;
+  }
+}
+
+@layer demo {
+  h1 {
+    --font-level: 6;
+    font-family: 'Departure Mono', monospace;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    width: 12ch;
+    margin: 0;
+  }
+  p {
+    --font-level: 2;
+    font-family: 'Reddit Mono', monospace;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+    opacity: 0.5;
+  }
+  body {
+    align-content: center;
+    gap: 2rem;
+  }
+}
+
+@layer base {
+  :root {
+    --font-size-min: 16;
+    --font-size-max: 20;
+    --font-ratio-min: 1.2;
+    --font-ratio-max: 1.33;
+    --font-width-min: 375;
+    --font-width-max: 1500;
+  }
+
+  html {
+    color-scheme: light dark;
+  }
+  [data-theme='system'][data-flipped='true'] {
+    color-scheme: dark light;
+    body {
+      background: light-dark(#000, #fff);
+      color: light-dark(canvasText, canvas);
+    }
+    body::before {
+      --line: color-mix(in hsl, canvas, transparent 70%);
+    }
+    .bear-link {
+      color: canvas;
+    }
+  }
+
+  [data-flipped='true'][data-theme='dark'],
+  [data-theme='light'] {
+    color-scheme: light only;
+  }
+
+  [data-flipped='true'][data-theme='light'],
+  [data-theme='dark'] {
+    color-scheme: dark only;
+  }
+
+  :where(.fluid) {
+    --fluid-min: calc(
+      var(--font-size-min) * pow(var(--font-ratio-min), var(--font-level, 0))
+    );
+    --fluid-max: calc(
+      var(--font-size-max) * pow(var(--font-ratio-max), var(--font-level, 0))
+    );
+    --fluid-preferred: calc(
+      (var(--fluid-max) - var(--fluid-min)) /
+        (var(--font-width-max) - var(--font-width-min))
+    );
+    --fluid-type: clamp(
+      (var(--fluid-min) / 16) * 1rem,
+      ((var(--fluid-min) / 16) * 1rem) -
+        (((var(--fluid-preferred) * var(--font-width-min)) / 16) * 1rem) +
+        (var(--fluid-preferred) * var(--variable-unit, 100vi)),
+      (var(--fluid-max) / 16) * 1rem
+    );
+    font-size: var(--fluid-type);
+  }
+
+  *,
+  *:after,
+  *:before {
+    box-sizing: border-box;
+  }
+
+  body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'AOS Icons', 'Helvetica Neue',
+      Helvetica, Arial, sans-serif, system-ui;
+  }
+
+  body::before {
+    --size: 45px;
+    --line: color-mix(in hsl, canvasText, transparent 70%);
+    content: '';
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background: linear-gradient(
+          90deg,
+          var(--line) 1px,
+          transparent 1px var(--size)
+        )
+        50% 50% / var(--size) var(--size),
+      linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% /
+        var(--size) var(--size);
+    mask: linear-gradient(-20deg, transparent 50%, white);
+    top: 0;
+    transform-style: flat;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  .bear-link {
+    color: canvasText;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    width: 48px;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    opacity: 0.8;
+  }
+
+  :where(.x-link, .bear-link):is(:hover, :focus-visible) {
+    opacity: 1;
+  }
+
+  .bear-link svg {
+    width: 75%;
+  }
+
+  /* Utilities */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+}
