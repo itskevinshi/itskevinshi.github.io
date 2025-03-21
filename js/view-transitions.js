@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const style = document.createElement('style');
     style.textContent = `
       :root {
-        --speed: 0.625s;
+        --speed: 0.3125s;
         --ms: calc(1vmax * var(--size));
         --mi: ${new Array(Math.pow(config.cells, 2))
           .fill('linear-gradient(#fff 0 0)')
