@@ -187,6 +187,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         currentPageScripts = [];
         
+        // Reset script flags to ensure they can be reinitialized
+        window.streakCounterInitialized = false;
+        
+        // Clean up any animation frames from progress-bar.js
+        if (window.progressBarAnimationFrame) {
+          cancelAnimationFrame(window.progressBarAnimationFrame);
+          window.progressBarAnimationFrame = null;
+        }
+        
         // Update the main content
         document.querySelector('main').innerHTML = newDocument.querySelector('main').innerHTML;
         
@@ -222,11 +231,17 @@ document.addEventListener('DOMContentLoaded', () => {
             // Track when progress-bar.js is loaded
             if (src.includes('progress-bar.js')) {
               script.onload = function() {
-                // Initialize progress bar
-                if (typeof updateProgressBar === 'function') {
+                // Initialize progress bar if the function exists and elements are present
+                if (typeof updateProgressBar === 'function' && 
+                    document.getElementById("progress-bar") && 
+                    document.getElementById("percentage")) {
                   // Set year elements
-                  document.getElementById("recap-year").textContent = new Date().getFullYear() - 1;
-                  document.getElementById("current-year").textContent = new Date().getFullYear();
+                  const recapYearElement = document.getElementById("recap-year");
+                  const currentYearElement = document.getElementById("current-year");
+                  
+                  if (recapYearElement) recapYearElement.textContent = new Date().getFullYear() - 1;
+                  if (currentYearElement) currentYearElement.textContent = new Date().getFullYear();
+                  
                   // Start the progress bar
                   updateProgressBar();
                 }

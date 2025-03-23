@@ -1,4 +1,11 @@
 function updateProgressBar() {
+    // Check if needed elements exist before proceeding
+    const progressBarElement = document.getElementById("progress-bar");
+    const percentageElement = document.getElementById("percentage");
+    
+    // If elements don't exist, don't proceed with the update
+    if (!progressBarElement || !percentageElement) return;
+    
     const now = new Date();
     const year = now.getFullYear();
     const startOfYear = new Date(`${year}-01-01T00:00:00`);
@@ -11,15 +18,21 @@ function updateProgressBar() {
     const filledBars = Math.floor((percentage / 100) * totalBars);
     const emptyBars = totalBars - filledBars;
 
-    document.getElementById("progress-bar").textContent =
+    progressBarElement.textContent =
         '▮'.repeat(filledBars) + '▯'.repeat(emptyBars);
-    document.getElementById("percentage").textContent = `${percentage}%`;
+    percentageElement.textContent = `${percentage}%`;
 
-    requestAnimationFrame(updateProgressBar);
+    // Store the animation frame ID for potential cleanup
+    window.progressBarAnimationFrame = requestAnimationFrame(updateProgressBar);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById("recap-year").textContent = new Date().getFullYear() - 1;
-    document.getElementById("current-year").textContent = new Date().getFullYear();
+    const recapYearElement = document.getElementById("recap-year");
+    const currentYearElement = document.getElementById("current-year");
+    
+    // Only set content if elements exist
+    if (recapYearElement) recapYearElement.textContent = new Date().getFullYear() - 1;
+    if (currentYearElement) currentYearElement.textContent = new Date().getFullYear();
+    
     updateProgressBar();
 });
