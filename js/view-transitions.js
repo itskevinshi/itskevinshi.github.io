@@ -217,6 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
               src && (
                 src.includes('progress-bar.js') || 
                 src.includes('streak-counter.js') || 
+                src.includes('fun-facts.js') ||
                 src.includes('oneko.js')
               )
             );
@@ -244,6 +245,16 @@ document.addEventListener('DOMContentLoaded', () => {
                   
                   // Start the progress bar
                   updateProgressBar();
+                }
+              };
+            }
+            
+            // Initialize fun facts when the script is loaded
+            if (src.includes('fun-facts.js')) {
+              script.onload = function() {
+                const funFactElement = document.getElementById('daily-fun-fact');
+                if (funFactElement && typeof initializeFunFact === 'function') {
+                  initializeFunFact();
                 }
               };
             }

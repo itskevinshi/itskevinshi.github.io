@@ -1,7 +1,8 @@
 // Fun Facts Rotator - Displays a new fact each day
 "use strict";
 
-document.addEventListener('DOMContentLoaded', function() {
+// Create a function to initialize fun facts that can be called from view-transitions.js
+function initializeFunFact() {
   const funFactElement = document.getElementById('daily-fun-fact');
   if (!funFactElement) return;
   
@@ -50,4 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Display the fact without animations
   funFactElement.textContent = funFacts[factIndex];
-});
+}
+
+// Run the function when the DOM is loaded (for initial page loads)
+document.addEventListener('DOMContentLoaded', initializeFunFact);
