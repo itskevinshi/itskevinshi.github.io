@@ -34,10 +34,16 @@ permalink: /random/
 
 
 <div style="text-align: center;">
+
     <span id="current-year"></span> is <span id="percentage"></span> done... 
     <pre id="progress-bar"></pre>
+    
+    <div style="margin-bottom: 20px; margin-top: 20px;">
+        <p id="daily-fun-fact" style="font-style: italic;"></p>
+    </div>
 </div>
 
 <script src="../js/progress-bar.js"></script>
 <script src="../js/streak-counter.js"></script>
+<script src="../js/fun-facts.js"></script>
 <script src="../js/oneko.js"></script>
