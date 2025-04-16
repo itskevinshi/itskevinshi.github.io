@@ -18,7 +18,7 @@ function initializeFunFact() {
     "I love photographing wildlife, especially bugs, and uploading them to iNaturalist.",
     "I trade and invest in video game items, and have profited over $6000 from it.",
     "I won my current laptop (a Razer Blade 14) in a giveaway.",
-    "When I visited China in 2024, I realized how much cooler their EVs",
+    "When I visited China in 2024, I realized how much cooler their EVs are.",
     "My most viewed YouTube video is a clip from an anime called 'Kaguya-sama: Love is War'. It has nearly 500k views.",
     "In high school, my favorite club was Scholastic Bowl.",
     "High school started at 7:20 AM, and I had to wake up at 5:30 AM to catch the bus, which I consider cruel and unusual punishment.",
