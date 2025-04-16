@@ -12,7 +12,7 @@ permalink: /random/
 <a href="https://www.goodreads.com/book/show/49021976-rhythm-of-war" target="_blank">Rhythm of War</a>, by Brandon Sanderson
 
 # Playing ![IVEPLAYEDTHESEGAMESBEFORE](../assets/IVEPLAYEDTHESEGAMESBEFORE.webp){: width="30px" style="vertical-align: middle;" }
-- VALORANT (Current Rank: Gold 3)
+- VALORANT (Current Rank: Plat 3)
 - Fire Emblem: Path of Radiance
 
 # <span id="recap-year"></span> Recap:

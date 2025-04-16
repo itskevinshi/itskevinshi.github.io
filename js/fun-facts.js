@@ -37,6 +37,9 @@ function initializeFunFact() {
     "I used to earn money arbitrage trading in video games, selling CS:GO skins for Rocket League keys, Rocket League keys for TF2 keys, then TF2 keys for more CS:GO skins.",
     "I used to mine Ether, when it was still possible. At one point, I was earning $6 a day!",
     "I've played nearly every Fire Emblem Game, and my favorite is Fire Emblem: The Blazing Blade.",
+    "My favorite building at UVA is Gilmer Hall.",
+    "The longest book I've read (actually listened to) was The Stand by Stephen King.",
+    "My first Herman Miller chair was a Celle, which I got from my schools surplus store for $5.",
   ];
   
   // Get the current day of the year to determine which fact to show
