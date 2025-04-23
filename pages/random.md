@@ -8,11 +8,11 @@ permalink: /random/
 # Duolingo Streak (Japanese)🐧: <span id="streak-counter"></span> days
 
 # Reading/Listening To 🔊
-<a href="https://www.goodreads.com/book/show/36124936-the-outsider" target="_blank">The Outsider</a>, by Stephen King
+<a href="https://www.goodreads.com/book/show/46015758-if-it-bleeds" target="_blank">If It Bleeds</a>, by Stephen King
 <a href="https://www.goodreads.com/book/show/49021976-rhythm-of-war" target="_blank">Rhythm of War</a>, by Brandon Sanderson
 
 # Playing ![IVEPLAYEDTHESEGAMESBEFORE](../assets/IVEPLAYEDTHESEGAMESBEFORE.webp){: width="30px" style="vertical-align: middle;" }
-- VALORANT (Current Rank: Plat 3)
+- VALORANT (Current Rank: Plat 2)
 - Fire Emblem: Path of Radiance
 
 # <span id="recap-year"></span> Recap:
