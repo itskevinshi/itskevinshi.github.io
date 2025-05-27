@@ -8,7 +8,7 @@ permalink: /random/
 # Duolingo Streak (Japanese)🐧: <span id="streak-counter"></span> days
 
 # Reading/Listening To 🔊
-<a href="https://www.goodreads.com/book/show/46015758-if-it-bleeds" target="_blank">If It Bleeds</a>, by Stephen King
+<a href="https://www.goodreads.com/book/show/179780.The_Exorcist" target="_blank">The Exorcist</a>, by William Peter Blatty
 <a href="https://www.goodreads.com/book/show/49021976-rhythm-of-war" target="_blank">Rhythm of War</a>, by Brandon Sanderson
 
 # Playing ![IVEPLAYEDTHESEGAMESBEFORE](../assets/IVEPLAYEDTHESEGAMESBEFORE.webp){: width="30px" style="vertical-align: middle;" }
