@@ -9,6 +9,7 @@ permalink: /random/
 
 # Reading/Listening To 🔊
 <a href="https://www.goodreads.com/book/show/133266.Four_Past_Midnight" target="_blank">Four Past Midnight</a>, by Stephen King
+<a href="https://www.goodreads.com/book/show/54493401-project-hail-mary" target="_blank">Project Hail Mary</a>, by Andy Weir
 <a href="https://www.goodreads.com/book/show/49021976-rhythm-of-war" target="_blank">Rhythm of War</a>, by Brandon Sanderson
 
 # Playing ![IVEPLAYEDTHESEGAMESBEFORE](../assets/IVEPLAYEDTHESEGAMESBEFORE.webp){: width="30px" style="vertical-align: middle;" }
