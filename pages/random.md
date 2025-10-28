@@ -8,7 +8,7 @@ permalink: /random/
 # Duolingo Streak (Japanese)🐧: <span id="streak-counter"></span> days
 
 # Reading/Listening To 🔊
-<a href="https://www.goodreads.com/book/show/8908.World_War_Z" target="_blank">World War Z</a>, by Max Brooks
+<a href="https://www.goodreads.com/book/show/11573.The_Dead_Zone" target="_blank">The Dead Zone</a>, by Stephen King
 <a href="https://www.goodreads.com/book/show/54493401-project-hail-mary" target="_blank">Project Hail Mary</a>, by Andy Weir
 <a href="https://www.goodreads.com/book/show/49021976-rhythm-of-war" target="_blank">Rhythm of War</a>, by Brandon Sanderson
 
