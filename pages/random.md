@@ -8,13 +8,13 @@ permalink: /random/
 # Duolingo Streak (Japanese)🐧: <span id="streak-counter"></span> days
 
 # Reading/Listening To 🔊
-<a href="https://www.goodreads.com/book/show/11573.The_Dead_Zone" target="_blank">The Dead Zone</a>, by Stephen King
+<a href="https://www.goodreads.com/book/show/6320534-under-the-dome" target="_blank">Under the Dome</a>, by Stephen King
 <a href="https://www.goodreads.com/book/show/54493401-project-hail-mary" target="_blank">Project Hail Mary</a>, by Andy Weir
 <a href="https://www.goodreads.com/book/show/49021976-rhythm-of-war" target="_blank">Rhythm of War</a>, by Brandon Sanderson
 
 # Playing ![IVEPLAYEDTHESEGAMESBEFORE](../assets/IVEPLAYEDTHESEGAMESBEFORE.webp){: width="30px" style="vertical-align: middle;" }
-- VALORANT (Current Rank: Gold 3)
-- Fire Emblem: Path of Radiance
+- VALORANT (Current Rank: Gold 2)
+- Fire Emblem: Radiant Dawn
 
 # <span id="recap-year"></span> Recap:
 # Reddit
