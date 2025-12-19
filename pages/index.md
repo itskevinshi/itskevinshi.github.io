@@ -17,7 +17,7 @@ Hey there! I'm Kevin Shi, a Virginia native and fourth year CS major at the Univ
 
 # Personal Hobbies
 - Go to the <a href="/random/" class="flashing" rel="noopener noreferrer">/random</a> page
-# Full Resume <a href="../assets/Kevin_Shi_resume_np.pdf" target="_blank" rel="noopener noreferrer">Here</a>
+<!-- # Full Resume <a href="../assets/Kevin_Shi_resume_np.pdf" target="_blank" rel="noopener noreferrer">Here</a> -->
 # ‎ 
 
 <div style="text-align: center;">
