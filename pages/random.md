@@ -54,6 +54,7 @@ permalink: /random/
 # Playing ![IVEPLAYEDTHESEGAMESBEFORE](../assets/IVEPLAYEDTHESEGAMESBEFORE.webp){: width="30px" style="vertical-align: middle;" }
 - VALORANT (Current Rank: Gold 2)
 - Fire Emblem: Radiant Dawn
+- Geometry Dash (working on Cataclysm)
 
 <!-- # <span id="recap-year"></span> Recap:
 # Reddit
