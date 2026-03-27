@@ -12,7 +12,7 @@ permalink: /random/
 <details>
 <summary><strong>In Progress</strong></summary>
 <ul>
-<li><a href="https://www.goodreads.com/book/show/6320534-under-the-dome" target="_blank">Under the Dome</a>, by Stephen King</li>
+<li><a href="https://www.goodreads.com/book/show/13440.Skeleton_Crew" target="_blank">Skeleton Crew</a>, by Stephen King</li>
 </ul>
 </details>
 
@@ -48,11 +48,12 @@ permalink: /random/
 <li><a href="https://www.goodreads.com/book/show/10605.Thinner" target="_blank">Thinner</a>, by Stephen King</li>
 <li><a href="https://www.goodreads.com/book/show/10592.Carrie" target="_blank">Carrie</a>, by Stephen King</li>
 <li><a href="https://www.goodreads.com/book/show/107291.Needful_Things" target="_blank">Needful Things</a>, by Stephen King</li>
+<li><a href="https://www.goodreads.com/book/show/6320534-under-the-dome" target="_blank">Under the Dome</a>, by Stephen King</li>
 </ul>
 </details>
 
 # Playing ![IVEPLAYEDTHESEGAMESBEFORE](../assets/IVEPLAYEDTHESEGAMESBEFORE.webp){: width="30px" style="vertical-align: middle;" }
-- VALORANT (Current Rank: Gold 2)
+- VALORANT (Current Rank: Platinum 2)
 - Fire Emblem: Radiant Dawn
 - Geometry Dash (working on Cataclysm)
 
