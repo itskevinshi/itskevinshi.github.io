@@ -12,7 +12,7 @@ permalink: /random/
 <details>
 <summary><strong>In Progress</strong></summary>
 <ul>
-<li><a href="https://www.goodreads.com/book/show/13440.Skeleton_Crew" target="_blank">Skeleton Crew</a>, by Stephen King</li>
+<li><a href="https://www.goodreads.com/book/show/28111710-christine" target="_blank">Christine</a>, by Stephen King</li>
 </ul>
 </details>
 
@@ -27,6 +27,7 @@ permalink: /random/
 <details>
 <summary><strong>Completed</strong></summary>
 <ul>
+<li><a href="https://www.goodreads.com/book/show/13440.Skeleton_Crew" target="_blank">Skeleton Crew</a>, by Stephen King</li>
 <li><a href="https://www.goodreads.com/book/show/11573.The_Dead_Zone" target="_blank">The Dead Zone</a>, by Stephen King</li>
 <li><a href="https://www.goodreads.com/book/show/8908.World_War_Z" target="_blank">World War Z</a>, by Max Brooks</li>
 <li><a href="https://www.goodreads.com/book/show/11607.The_Running_Man" target="_blank">The Running Man</a>, by Stephen King</li>
@@ -53,7 +54,7 @@ permalink: /random/
 </details>
 
 # Playing ![IVEPLAYEDTHESEGAMESBEFORE](../assets/IVEPLAYEDTHESEGAMESBEFORE.webp){: width="30px" style="vertical-align: middle;" }
-- VALORANT (Current Rank: Platinum 2)
+- VALORANT (Current Rank: Diamond 1)
 - Fire Emblem: Radiant Dawn
 - Geometry Dash (working on Cataclysm)
 

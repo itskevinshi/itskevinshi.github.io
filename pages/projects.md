@@ -4,6 +4,13 @@ title: /projects
 permalink: /projects/
 ---
 
+# <a href="https://firesidereader.pages.dev/" target="_blank" rel="noopener noreferrer">Fireside</a>
+- A modern EPUB reading application built with React, TypeScript, and Supabase.
+- Includes text-to-speech narration integrations powered by Mistral AI.
+- Features a RAG chatbot using Groq and Supabase Edge Functions, allowing users to ask questions about the book without spoiling unread chapters.
+# <a href="https://devpost.com/software/chord-less" target="_blank" rel="noopener noreferrer">Chord-less</a>
+- Best in Art & Gaming category at HooHacks 2026!!
+- A multi-device virtual instrument that transforms your hardware into an interactive guitar practice experience. 
 # <a href="https://devpost.com/software/show-me-a-sign" target="_blank" rel="noopener noreferrer">Show Me A Sign</a>
 - 2nd place overall at HooHacks 2025!!
 - An interactive ASL learning platform built with React, TypeScript, and Python Flask that uses computer vision and machine learning to provide real-time feedback on American Sign Language gestures through webcam interaction.
