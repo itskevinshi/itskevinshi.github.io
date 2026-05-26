@@ -55,7 +55,7 @@ permalink: /random/
 
 # Playing ![IVEPLAYEDTHESEGAMESBEFORE](../assets/IVEPLAYEDTHESEGAMESBEFORE.webp){: width="30px" style="vertical-align: middle;" }
 - VALORANT (Current Rank: Diamond 1)
-- Fire Emblem: Radiant Dawn
+- Fire Emblem: Shadow Dragon
 - Geometry Dash (working on Cataclysm)
 
 <!-- # <span id="recap-year"></span> Recap:
