@@ -8,9 +8,10 @@ permalink: /
 
 **Welcome to my website!**
 
-Hey there! I'm Kevin Shi, a Virginia native and fourth year CS major at the University of Virginia. I do a lot of different things, but here are some of the highlights:
+Hey there! I'm Kevin Shi, a Virginia native and SWE at Google. I graduated May 2026 from the University of Virginia majoring in Computer Science and Mathematics. I do a lot of different things, but here are some of the highlights:
 
 # Professional Experience
+- Google: SWE (July 2026 - Now)
 - Google: SWE Intern (May 2025 - August 2025)
 - Northrop Grumman: SWE Intern (May 2024 - July 2024)
 - OmnisTMS: SWE Intern (June 2024 - August 2024)

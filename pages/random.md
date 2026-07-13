@@ -13,13 +13,13 @@ permalink: /random/
 <summary><strong>In Progress</strong></summary>
 <ul>
 <li><a href="https://www.goodreads.com/book/show/28111710-christine" target="_blank">Christine</a>, by Stephen King</li>
+<li><a href="https://www.goodreads.com/book/show/54493401-project-hail-mary" target="_blank">Project Hail Mary</a>, by Andy Weir</li>
 </ul>
 </details>
 
 <details>
 <summary><strong>Paused</strong></summary>
 <ul>
-<li><a href="https://www.goodreads.com/book/show/54493401-project-hail-mary" target="_blank">Project Hail Mary</a>, by Andy Weir</li>
 <li><a href="https://www.goodreads.com/book/show/49021976-rhythm-of-war" target="_blank">Rhythm of War</a>, by Brandon Sanderson</li>
 </ul>
 </details>
@@ -54,7 +54,7 @@ permalink: /random/
 </details>
 
 # Playing ![IVEPLAYEDTHESEGAMESBEFORE](../assets/IVEPLAYEDTHESEGAMESBEFORE.webp){: width="30px" style="vertical-align: middle;" }
-- VALORANT (Current Rank: Diamond 1)
+- VALORANT (Current Rank: Platinum 1)
 - Fire Emblem Echoes: Shadows of Valentia
 - Geometry Dash (working on Cataclysm)
 
