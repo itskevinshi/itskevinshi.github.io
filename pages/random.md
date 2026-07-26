@@ -12,8 +12,8 @@ permalink: /random/
 <details>
 <summary><strong>In Progress</strong></summary>
 <ul>
-<li><a href="https://www.goodreads.com/book/show/28111710-christine" target="_blank">Christine</a>, by Stephen King</li>
-<li><a href="https://www.goodreads.com/book/show/54493401-project-hail-mary" target="_blank">Project Hail Mary</a>, by Andy Weir</li>
+<li><a href="https://www.goodreads.com/book/show/5907.The_Hobbit" target="_blank">The Hobbit, or There and Back Again</a>, by J.R.R. Tolkien</li>
+<li><a href="https://www.goodreads.com/book/show/7278752-dolores-claiborne" target="_blank">Dolores Claiborne</a>, by Stephen King</li>
 </ul>
 </details>
 
@@ -27,6 +27,8 @@ permalink: /random/
 <details>
 <summary><strong>Completed</strong></summary>
 <ul>
+<li><a href="https://www.goodreads.com/book/show/28111710-christine" target="_blank">Christine</a>, by Stephen King</li>
+<li><a href="https://www.goodreads.com/book/show/54493401-project-hail-mary" target="_blank">Project Hail Mary</a>, by Andy Weir</li>
 <li><a href="https://www.goodreads.com/book/show/13440.Skeleton_Crew" target="_blank">Skeleton Crew</a>, by Stephen King</li>
 <li><a href="https://www.goodreads.com/book/show/11573.The_Dead_Zone" target="_blank">The Dead Zone</a>, by Stephen King</li>
 <li><a href="https://www.goodreads.com/book/show/8908.World_War_Z" target="_blank">World War Z</a>, by Max Brooks</li>
