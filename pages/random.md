@@ -13,7 +13,7 @@ permalink: /random/
 <summary><strong>In Progress</strong></summary>
 <ul>
 <li><a href="https://www.goodreads.com/book/show/5907.The_Hobbit" target="_blank">The Hobbit, or There and Back Again</a>, by J.R.R. Tolkien</li>
-<li><a href="https://www.goodreads.com/book/show/7278752-dolores-claiborne" target="_blank">Dolores Claiborne</a>, by Stephen King</li>
+<li><a href="https://www.goodreads.com/en/book/show/233667.Firestarter" target="_blank">Firestarter</a>, by Stephen King</li>
 </ul>
 </details>
 
@@ -21,6 +21,7 @@ permalink: /random/
 <summary><strong>Paused</strong></summary>
 <ul>
 <li><a href="https://www.goodreads.com/book/show/49021976-rhythm-of-war" target="_blank">Rhythm of War</a>, by Brandon Sanderson</li>
+<li><a href="https://www.goodreads.com/book/show/7278752-dolores-claiborne" target="_blank">Dolores Claiborne</a>, by Stephen King</li>
 </ul>
 </details>
 
