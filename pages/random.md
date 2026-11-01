@@ -12,7 +12,7 @@ permalink: /random/
 <details>
 <summary><strong>In Progress</strong></summary>
 <ul>
-<li><a href="https://www.goodreads.com/book/show/5907.The_Hobbit" target="_blank">The Hobbit, or There and Back Again</a>, by J.R.R. Tolkien</li>
+<li><a href="https://www.goodreads.com/en/book/show/61215351-the-fellowship-of-the-ring" target="_blank">The Fellowship of the Ring</a>, by J.R.R. Tolkien</li>
 <li><a href="https://www.goodreads.com/en/book/show/233667.Firestarter" target="_blank">Firestarter</a>, by Stephen King</li>
 </ul>
 </details>
@@ -28,6 +28,7 @@ permalink: /random/
 <details>
 <summary><strong>Completed</strong></summary>
 <ul>
+<li><a href="https://www.goodreads.com/book/show/5907.The_Hobbit" target="_blank">The Hobbit, or There and Back Again</a>, by J.R.R. Tolkien</li>
 <li><a href="https://www.goodreads.com/book/show/28111710-christine" target="_blank">Christine</a>, by Stephen King</li>
 <li><a href="https://www.goodreads.com/book/show/54493401-project-hail-mary" target="_blank">Project Hail Mary</a>, by Andy Weir</li>
 <li><a href="https://www.goodreads.com/book/show/13440.Skeleton_Crew" target="_blank">Skeleton Crew</a>, by Stephen King</li>
@@ -60,6 +61,7 @@ permalink: /random/
 - VALORANT (Current Rank: Platinum 1)
 - Fire Emblem Echoes: Shadows of Valentia
 - Geometry Dash (working on Cataclysm)
+- The House in Fata Morgana
 
 <!-- # <span id="recap-year"></span> Recap:
 # Reddit
